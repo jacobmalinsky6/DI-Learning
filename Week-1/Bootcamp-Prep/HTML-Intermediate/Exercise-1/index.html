@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+      input {
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      Inside of header - let's add a navbar with some essential links
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <hr />
+
+    <div>
+      <h1>
+        <strong
+          >Here is the main section of our page - it consists of a new articles
+        </strong>
+      </h1>
+      <h1>
+        <strong
+          >Article 1 - 1995 was a pretty crazy year for programming languages!
+        </strong>
+      </h1>
+      <p>Don't believe me? Just check this table out:</p>
+
+      <table>
+        <tr>
+          <th><strong>Language</strong></th>
+          <th><strong>Designed By</strong></th>
+          <th><strong>First Appeared</strong></th>
+        </tr>
+        <tr>
+          <th>C++</th>
+          <th>Bjarne Stroustrup</th>
+          <th>1983</th>
+        </tr>
+        <tr>
+          <th>Python</th>
+          <th>Guido van Rossum</th>
+          <th>1991</th>
+        </tr>
+        <tr>
+          <th>Ruby</th>
+          <th>Yukihiro Matsumoto ("Matz")</th>
+          <th>1995</th>
+        </tr>
+
+        <tr>
+          <th>Javascript</th>
+          <th>Brendan Eich</th>
+          <th>1995</th>
+        </tr>
+        <tr>
+          <th>Java</th>
+          <th>James Gosling</th>
+          <th>1995</th>
+        </tr>
+        <tr>
+          <th>PHP</th>
+          <th>Rasmus Lerdorf</th>
+          <th>1995</th>
+        </tr>
+      </table>
+
+      <h1><strong>Article Two: Coming Soon!</strong></h1>
+      <h1><strong>Contact Us!</strong></h1>
+      <section>
+        <h1><strong>General Information:</strong></h1>
+        <form action="" method="get">
+          First Name: <input type="text" name="firstname" /><br />
+          Last Name: <input type="text" name="lasttname" /><br />
+          Email: <input type="email" name="email" /><br />
+          Birthday: <input type="date" name="birthday" /><br />
+        </form>
+      </section>
+
+      <section>
+        <h1><strong>Essential Questions:</strong></h1>
+        <p><strong>What Kind of Work Do You Need?</strong></p>
+        <form action="#">
+          <label for="programming">Programming</label>
+          <input type="checkbox" name="programming" checked />
+          <label for="Design">Design</label>
+          <input type="checkbox" name="Design" />
+          <label for="Singing">Singing</label>
+          <input type="checkbox" name="Singing" />
+          <label for="Comedy">Comedy</label>
+          <input type="checkbox" name="Comedy" />
+        </form>
+      </section>
+      <section>
+        <form action="">
+          <p>How interested are you in our design skills?</p>
+          <input type="radio" name="radiobuttonforchoice" />
+          <label for="very_low">Very Low</label><br />
+          <input type="radio" name="radiobuttonforchoice" />
+          <label for="low">Low</label><br />
+          <input type="radio" name="radiobuttonforchoice" />
+          <label for="Medium">Medium</label><br />
+          <input type="radio" name="radiobuttonforchoice" />
+          <label for="high">High</label><br />
+          <input type="radio" name="radiobuttonforchoice" />
+          <label for="very_high">Very High</label><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </div>
+    <hr />
+    <footer>
+      Here is our footer - let's make sure we copyright &copy; this!
+    </footer>
+  </body>
+</html>

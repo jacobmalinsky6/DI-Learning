@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-weight: bold;
+    background-image: url(moon_image.jpeg);
+    background-size: cover;
+    color: azure;
+    font-family: 'Shrikhand', cursive;
+}
+
+.title {
+    text-align: center;
+    font-size: 125px;
+}

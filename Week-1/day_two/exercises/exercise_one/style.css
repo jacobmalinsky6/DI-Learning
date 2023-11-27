@@ -1,0 +1,30 @@
+.title {
+  text-decoration-line: underline;
+  font-weight: bold;
+}
+
+.center-container {
+  display: block; /* Make the image a block element */
+  margin: auto; /* Center-align the image */
+  border: 10px solid orange;
+}
+
+tr,
+td {
+  border: 2px solid black;
+  margin: auto;
+}
+
+th {
+  border: 2px solid red;
+  margin: 2px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  color: black;
+}

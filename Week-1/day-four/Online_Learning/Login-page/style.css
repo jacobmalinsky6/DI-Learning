@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+input {
+  font-size: 20px;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5); /* Adjust the scale factor as needed */
+}
+
+.login_actions label {
+  margin-right: 20px; /* Adjust the value as needed */
+}
+
+.left_container {
+  color: black;
+  background-color: whitesmoke;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right_container {
+  color: white;
+  background: linear-gradient(to bottom, #800080, #300030);
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.register {
+  position: relative;
+  width: 200px; /* Set the width of the oval container */
+  height: 100px; /* Set the height of the oval container */
+  border: 3px solid white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register p {
+  margin: 10px;
+}

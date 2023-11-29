@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvertica, Calibri;
+  margin: 0;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.custom-length-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-length-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px; /* Adjust the length by changing the negative value */
+  width: 40%; /* Adjust the width of the underline as a percentage */
+  border-bottom: 10px solid rgb(92, 92, 138); /* Adjust color and thickness as needed */
+}
+
+.top_section {
+  background: silver;
+  display: inline-block;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.title_section {
+  text-align: left;
+  padding: 1vw;
+  font-size: 30px;
+}
+
+#profile_picture {
+  width: 25vh;
+  height: 25vh;
+  border-bottom: 20px solid rgb(92, 92, 138);
+}
+
+.horizontal-line {
+  border: 5px solid rgb(92, 92, 138);
+}
+
+.bottom_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.bottom_content_left {
+  background-color: silver;
+  width: 20%;
+  text-align: left;
+  padding: 5em;
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.bottom_content_right {
+  background-color: silver;
+  width: 80%;
+  text-align: left;
+  padding: 5em;
+  font-size: 1.5em;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li img {
+  width: auto; /* Set the desired width for the images */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust spacing between image and text */
+}
+
+.contact_list {
+  list-style-type: none;
+}

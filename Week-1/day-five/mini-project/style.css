@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+nav {
+  height: 90%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #111;
+}
+
+.left_navbar {
+  float: left;
+}
+
+.right_navbar {
+  float: right;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

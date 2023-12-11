@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Exercise Three</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        gap: 5px;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        height: 100vh;
+        width: 100vw;
+        border: 1 px solid black;
+      }
+      .one {
+        background-color: red;
+        grid-column: 1 / span 3;
+      }
+      .two {
+        background-color: darkviolet;
+        grid-row: 2 / span 2;
+      }
+      .three {
+        background-color: orange;
+      }
+      .four {
+        background-color: aqua;
+      }
+      .five {
+        background-color: pink;
+        grid-column: 2 / span 2;
+      }
+      .six {
+        background-color: darkred;
+        grid-column: 1 / span 2;
+      }
+      .seven {
+        background-color: green;
+      }
+      .eight {
+        background-color: yellow;
+        grid-column: 1 / span 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="element one"></div>
+      <div class="element two"></div>
+      <div class="element three"></div>
+      <div class="element four"></div>
+      <div class="element five"></div>
+      <div class="element six"></div>
+      <div class="element seven"></div>
+      <div class="element eight"></div>
+    </div>
+  </body>
+</html>

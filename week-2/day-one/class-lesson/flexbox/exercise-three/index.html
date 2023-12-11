@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="flex-ex1-style.css" />
+
+    <title>Document</title>
+    <style>
+      .outer {
+        background-color: grey;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .inner {
+        flex: 5;
+        background-color: red;
+        height: 20vh;
+      }
+
+      .inner-center {
+        flex: 1;
+        background-color: blue;
+        order: -1;
+        height: 20vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner">Team</div>
+      <div class="inner-center">Logo</div>
+      <div class="inner" style="background-color: lightblue">Products</div>
+    </div>
+  </body>
+</html>

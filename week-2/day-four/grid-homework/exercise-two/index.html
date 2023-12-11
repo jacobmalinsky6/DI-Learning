@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Exercise Two</title>
+    <style>
+      body {
+        margin: 0;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .container {
+        border: 1px solid black;
+        height: 300vh;
+        width: 100vw;
+        display: grid;
+        gap: 5px;
+        margin-left: auto;
+        margin-right: auto;
+
+        grid-template-areas:
+          "Header Header Header"
+          "Hero Main Main"
+          "Hero Main Main"
+          "Hero Main Main"
+          "Sidebar Main Main"
+          "Sidebar Main Main"
+          "Sidebar Extra Extra"
+          "Sidebar Extra Extra"
+          "Images Images Posts"
+          "Images Images Posts"
+          "Footer Footer Footer";
+      }
+
+      .header {
+        background-color: aqua;
+      }
+
+      .hero {
+        background-color: violet;
+      }
+
+      .main {
+        background-color: orange;
+      }
+
+      .sidebar {
+        background-color: lightgreen;
+      }
+
+      .extra {
+        background-color: grey;
+      }
+
+      .images {
+        background-color: darkgreen;
+      }
+      .posts {
+        background-color: pink;
+      }
+      footer {
+        background-color: darkorange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav style="grid-area: Header" class="element header"><p>Header</p></nav>
+      <div style="grid-area: Hero" class="element hero"><p>Hero</p></div>
+      <div style="grid-area: Main" class="element main">
+        <p>Main Content</p>
+      </div>
+      <div style="grid-area: Sidebar" class="element sidebar">
+        <p>Sidebar</p>
+      </div>
+      <div style="grid-area: Extra" class="element extra">
+        <p>Extra Content</p>
+      </div>
+      <div style="grid-area: Images" class="element images">
+        <p>Related Images</p>
+      </div>
+      <div style="grid-area: Posts" class="element posts">
+        <p>Related Posts</p>
+      </div>
+      <footer style="grid-area: Footer"><p>Footer</p></footer>
+    </div>
+  </body>
+</html>
